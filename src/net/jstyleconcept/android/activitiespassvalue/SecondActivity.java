@@ -17,8 +17,8 @@ public class SecondActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.layout_secondactivity);
-		resultText1=(TextView)findViewById(R.id.textView2);
-		resultText2=(TextView)findViewById(R.id.textView4);
+		resultText1=(TextView)findViewById(R.id.editText1);
+		resultText2=(TextView)findViewById(R.id.editText2);
 		backButton=(Button)findViewById(R.id.button1);
 		backButton.setOnClickListener(new Button.OnClickListener() {
 
@@ -34,8 +34,7 @@ public class SecondActivity extends Activity {
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.layout_secondactivity, menu);
+		getMenuInflater().inflate(R.menu.layout_secondactivity,menu);
 		return true;
 	}
 
@@ -49,5 +48,4 @@ public class SecondActivity extends Activity {
 		}
 		return super.onOptionsItemSelected(item);	
 	}
-
 }

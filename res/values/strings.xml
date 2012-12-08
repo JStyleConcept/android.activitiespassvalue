@@ -2,7 +2,6 @@
 <resources>
 
     <string name="app_name">Activities Pass Value</string>
-    <string name="hello_world">Hello world!</string>
     <string name="title_firstactivity">First Activity</string>
     <string name="title_secondactivity">Second Activity</string>
     <string name="input1">Input 1 :</string>
