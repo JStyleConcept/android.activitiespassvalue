@@ -46,6 +46,9 @@ public class SecondActivity extends Activity {
 				startActivity(intent);
 				break;
 			case 1:
+				Intent intentInit=new Intent(SecondActivity.this,FirstActivity.class);
+				intentInit.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+				startActivity(intentInit);
 				moveTaskToBack(true);
 				break;
 		}
